@@ -1,5 +1,5 @@
 # MIT-colab
-We will be looking at patients who have arterial and venous blood gases obtained very close to each other. This will provide an estimate of how much oxygen is extracted by the tissues from the arterial blood and how much carbon dioxide is dumped into the venous blood. These are proxies for cellular metabolism during critical illness.
+We will be looking at patients who have arterial and venous blood gases measured very close to each other. This will provide an estimate of how much oxygen is extracted by the tissues from the arterial blood and how much carbon dioxide is dumped into the venous blood. These are proxies for cellular metabolism during critical illness.
 
 Variables to obtain:
 
