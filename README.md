@@ -21,4 +21,4 @@ Vasopressors and inotropes including doses DURING bg measurement from prescripti
 use Central line only: 
 
 PICC line, internal jugular, subclavian acceptable
-not Femoral central line
+but NOT Femoral central line
