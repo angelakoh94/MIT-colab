@@ -5,7 +5,7 @@ We will be using MIMIC-IV dataset for this project.
 Variables to obtain: Blood gas measurements: pO2, pCO2, pH, O2 saturation %, lactate + HR, BP, FiO2, mechanically ventilated from LABEVENTS dataset (d_labitems dataset gives the list of measurements), age, SOFA score, comorbidity 
 Timestamp: storetime not charttime
 
-Couplets of central venous and arterial blood gases (O2 and CO2) within 1 hour, excluding if there are: Intubation between collection 
+Couplets of central venous and arterial blood gases (O2 and CO2) within 1 hour, excluding if there are: Intubation between collection
 Don’t stratify by time period, obtain ALL available data 
 
 Central venous saturation (on blood gas) - ALL available data
