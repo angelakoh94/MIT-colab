@@ -6,7 +6,6 @@ Variables to obtain: Blood gas measurements: pO2, pCO2, pH, O2 saturation %, lac
 Timestamp: storetime not charttime
 
 Couplets of central venous and arterial blood gases (O2 and CO2) within 1 hour, excluding if there are: Intubation between collection
-
 Don’t stratify by time period, obtain ALL available data 
 
 
@@ -19,7 +18,7 @@ Lactate levels within 4 hours pre and post collection (both arterial & venous), 
 Vasopressors and inotropes including doses DURING bg measurement from prescriptions dataset -epinephrine, norepinephrine, dobutamine, dopamine, phenylephrine, milrinone and vasopressin
 
 
-Central line only: 
+use Central line only: 
 
 PICC line, internal jugular, subclavian acceptable
 not Femoral central line
