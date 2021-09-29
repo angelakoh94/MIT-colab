@@ -1,0 +1,23 @@
+--  Variables needed for CO2 project for Arterial Blood Specimens
+
+SELECT  
+    bg.subject_id,
+    bg.value,
+    bg.valuenum,
+    bg.valueuom,
+    bg.charttime,
+    bg.storetime,
+    bg.itemid,
+    li.category,
+    li.fluid,
+    li.label,
+    ie.specimen_pred
+
+FROM `physionet-data.mimic_hosp.labevents` bg
+INNER JOIN `physionet-data.mimic_derived.bg` ie
+    ON bg.subject_id = ie.subject_id
+
+INNER JOIN `physionet-data.mimic_hosp.d_labitems` li
+    ON li.itemid = bg.itemid
+    AND li.category = 'Blood Gas'
+
